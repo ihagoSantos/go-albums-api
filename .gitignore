@@ -1,0 +1,50 @@
+# Binários
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Executáveis compilados
+/bin/
+/build/
+
+# Arquivos de configuração específicos do sistema
+.idea/
+.vscode/
+
+# Pacotes e dependências
+/vendor/
+/go.sum
+/go.mod
+
+# Logs e dados temporários
+/log/
+*.log
+*.log.*
+*.log?
+*.tmp
+
+# Arquivos de saída de teste e cobertura
+*.test
+*.prof
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+
+# Arquivos de backup
+*~
+*#
+.#*
+
+# Diretório bin gerado pelo `go test`
+_test/
+
+# Artefatos de compilação do Delve
+.delv/
